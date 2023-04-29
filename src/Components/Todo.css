@@ -1,0 +1,25 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width:60vw;
+    margin: auto;
+}
+.todoContainer{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.todoContainer button, .todoContainer input{
+    font-size: 1.2rem;
+}
+.todoContainer input{
+    height:40px;
+    border: 1px solid rgb(0, 137, 0);
+}
+.todoContainer button{
+    padding:5px;
+}

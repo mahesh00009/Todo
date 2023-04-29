@@ -1,0 +1,74 @@
+.taskContainer{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.tasks{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    background-color: paleturquoise;
+    overflow: hidden;
+
+}
+
+.tasks button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.buttons{
+    display: flex;
+    gap:10px;
+    margin-left:auto;
+    margin-right: 20px;
+}
+.buttons > button{
+    border: 1px solid chocolate;
+    width: 30%;
+    cursor: pointer;
+    transition: 0.08s linear;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    padding:5px 20px;
+
+}
+
+.buttons button:nth-child(1){
+    background-color: yellow;
+}
+
+.buttons button:nth-child(1):hover{
+    background-color: rgb(200, 200, 56);
+}
+.buttons button:nth-child(2){
+    background-color: rgb(0, 179, 0);
+    
+}
+
+.buttons button:nth-child(2):hover{
+    background-color: rgb(0, 216, 0);
+    
+}
+.buttons button:nth-child(3){
+    background-color: rgb(208, 16, 16);
+    color: wheat;
+}
+.buttons button:nth-child(3):hover{
+    background-color: rgb(255, 125, 39);
+}
+
+.finishedTask{
+    color: gray;
+    user-select: none;
+    cursor:not-allowed;
+}
+.finishedButtons{
+    user-select: none;
+    background-color: gray;
+    pointer-events:none;
+    opacity: 0.5;
+
+}
