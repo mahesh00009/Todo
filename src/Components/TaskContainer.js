@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import UpdateTask from './UpdateTask'
 import "./TaskContainer.css"
 
@@ -8,7 +8,7 @@ function TaskContainer({ tasks, setTasks }) {
 
   const handleDelete = (id) => {
 
-    setTasks(tasks.filter(elem => elem.id != id))
+    setTasks(tasks.filter(elem => elem.id !== id))
 
   }
 
