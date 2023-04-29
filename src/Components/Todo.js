@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import "./Todo.css"
 import TaskContainer from './TaskContainer';
-import UpdateTask from './UpdateTask';
 
 function Todo() {
     let [tasks, setTasks] = useState([]);
